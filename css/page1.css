@@ -1,114 +1,83 @@
- 
-nav  a{ 
+
+nav a { 
     float: left; 
-    text-decoration:none; 
-    color: #000000; 
-    background: hsl(0, 7%, 76%); 
+    text-decoration: none; 
+    color: #252424; 
+   background:  hsl(48deg 12.2% 91.96%);
     height: 40px; 
     line-height: 40px; 
     padding: 0 70px; 
     font-family: sans-serif; 
     font-size: 20px; 
     transition: .9s; 
-  
-    }
-    a{
-        font-size: large;
-        color: #3c3b3b;
-    }
-    .pull{
-        background-color: rgb(239, 152, 20);
-        display: inline;
-    }
-    .jeans{
-        display: inline;
-    }
-  
-.title{
-        
-        font-size:xx-large;
-        display: flex;
-        justify-content: center;
-        font-family: Arial, sans-serif;
-        height: 0px; 
-    }
-    .search-bar {
-        margin-top: 2px;
-        text-align: center;
-        padding: 0 70px; 
-        text-align: right;
-        
-    }
-    
-    .search-bar input {
-        padding: 10px;
-        width: 200px; 
-        
-    }
-   
-    .search-bar button {
-        padding: 10px;
-        background-color: #ffffff; 
-        color: rgb(0, 0, 0);
-        border: none;
-        cursor: pointer;
-       
-    }
-
-    
-body, h1, h2, p, img {
-    margin-top: 20px;
-   margin-top: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
 }
 
-
-body {
+.title {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    height: 0px; 
 }
 
+.search-bar {
+    margin-top: 2px;
+    text-align: center;
+    padding: 0 70px; 
+    text-align: right;   
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 200px;     
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;       
+}
+
+body, h1, h2, img {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    
+}
 
 header {
-    background-color: #d3ccccc4;
-    color: #fff;
+    background-color:hsl(48deg 12.2% 91.96%);
+   
     text-align: center;
     padding: 1em;
+    height: 70px;
 }
 
+
 section {
-    max-width: 1200px;
+    width: 1200px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #333;
-}
-
-p {
-    line-height: 1.6;
-    color: #555;
-}
-
-
-.capush, .jeans, .doudounes  .chaussures{
+.capush, .jeans, .doudounes, .chaussures {
     margin-top: 20px;
+    margin-bottom: 20px;
+    display:inline-block;
 }
 
-
-.capush img, .jeans img, .doudounes img , .chaussures img{
+.capush img, .jeans img, .doudounes img, .chaussures img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
-    display:inline-block;
+    display: inline-block;
     width: 350px;
-    height: 350px
+    height: 350px;
 }
-
 
 footer {
     text-align: center;
@@ -116,7 +85,6 @@ footer {
     background-color: #333;
     color: #fff;
 }
- .capush{ 
-    display:inline-block
-    background-color: #red;
- }
+
+.price{text-align: center;}
+

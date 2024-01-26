@@ -3,45 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/page1.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/cssAcc.css">
+    <title>Home fashion</title>
 </head>
 <body>
-   
+   <br>
    <div>
     
+    <l1 class="title">FASHION TIME</l1>
     <nav>
-        <l1 class="title">FASHION TIME</l1>
-        <a href="">WOMEN</a>
-        <a href="/html/Menpage.html">MAN</a>
+        <a href="html/Womenpage.html">WOMEN</a>
+        <a href="html/Menpage.html">MEN</a>
     </nav>
    </div>
- 
-    
-
     <div class="search-bar">
-        <input type="text" id="search-bar" placeholder="Search..." oninput="searchItem()">
-        <p>Your destination for the latest fashion trends.</p>
-       
+        <form action="/PerProject/html/Womenpage.html" method="GET">
+        <input type="text" placeholder="SEARCH...">
+        <button type="submit">Search</button>
+    </form>
     </div>
-   
-    <style>
-       
-        body {
-            background-image: url('/image/1861099-800w.jpg');
-            background-size: cover; 
-            background-repeat: no-repeat;
-            margin: 0; 
-            padding: 0;
-        }
-    </style>
-
-<script src="jquery-3.7.1.min.js"></script>
-
-<script src="/js/pageAcc.js"></script>
-  
-
+    <div> <img class="background" src="/PerProject/image/9aa6b2cf1eb22d0df74375ab66ac525c-0116019505_2_7_0.webp" alt="">
+    <img class="background1" src="/PerProject/image/1861099-800w.jpg">
+    </div>
+    
 </body>
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="/PerProject/js/pageAcc.js"></script>
 </html>
